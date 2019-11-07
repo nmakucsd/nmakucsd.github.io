@@ -188,3 +188,24 @@ html, body {
     background-color: white;
     color: grey;
 }
+
+.photo-section {
+    background-color: black;
+    padding: 3em;
+}
+
+.photo-section-header {
+    color: white;
+    font-weight: 200;
+}
+
+.photography {
+    max-width: 500px;
+    
+}
+
+.photo-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 50px;
+}
