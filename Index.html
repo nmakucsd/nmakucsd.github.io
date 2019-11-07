@@ -6,9 +6,20 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     
+
+
+
+
+
+
     <body>
-            <header class="main-header"> <!--header element -->
-                <nav class="nav main-nav"> <!--Navigation Section -->
+
+
+
+
+
+            <header class="main-header">
+                <nav class="nav main-nav">
                     <ul>        <!--unordered list-->
                         <li>HOME</li>       <!--list item, only used inside a ul/ol-->
                         <li> <a href="About_Me.html">ABOUT ME</a> </li>
@@ -19,72 +30,66 @@
 
 
 
-                <h1>Nick Mak</h1>   <!--heading 1 element-->
-                <button>RESUME</button>
+                <h1 class="name name-large">Nick Mak</h1>   <!--heading 1 element-->
                 <br>
-                <br>
-                <!-- TODO: Add a suitable backgorund image -->
-                <button>&#9658;</button>
+                <a href="Files/Nick Resume.pdf" target="_blank">
+                    <button class="btn btn-header">RESUME</button>
+                </a>
             </header>
 
-            <section>
-                <h2>EXPERIENCE</h2>
+
+
+
+
+
+
+            <section class="content-section container">
+                <h2 class="section-header">EXPERIENCE</h2>
+
                 <div>
-                    <div>
-                        <strong>UCSD IEEE</strong>
-                        &lt;&gt;
-                        <span>PROJECT LEAD</span>
-                        &lt;&gt;
-                        <span>10/2019 - PRESENT</span> 
-                        &lt;&gt;
-                        <button type="button">READ MORE</button>
+                    <div class="exp-row">
+                        <span class="exp-item company">UCSD IEEE</span>
+                        <span class="exp-item position">PROJECT LEAD</span>
+                        <span class="exp-item work-date">10/2019 - PRESENT</span> 
+                        <button type="button" class="btn exp-item read-more">READ MORE</button>
                     </div>
-                    <hr>
-                    <div>
-                        <strong>TAYLOR COLLABORATIONS LAB</strong>
-                        &lt;&gt;
-                        <span>ENGINEERING INTERN</span>
-                        &lt;&gt;
-                        <span>05/2017 - 07/2017</span> 
-                        &lt;&gt;
-                        <button type="button">READ MORE</button>  
+                    <div class="exp-row">
+                        <span class="exp-item company">TAYLOR COLLABORATIONS LAB</span>
+                        <span class="exp-item position">ENGINEERING INTERN</span>
+                        <span class="exp-item work-date">05/2017 - 07/2017</span> 
+                        <button type="button" class="btn exp-item read-more">READ MORE</button>  
                     </div>
-                    <hr>
-                    <div>
-                        <strong>FIRST ROBOTICS TEAM</strong>
-                        &lt;&gt;
-                        <span>FOUNDER, PRESIDENT, MENTOR</span>
-                        &lt;&gt;
-                        <span>08/2014 - 12/2017</span> 
-                        &lt;&gt;
-                        <button type="button">READ MORE</button>  
+                    <div class="exp-row">
+                        <span class="exp-item company">FIRST ROBOTICS TEAM</span>
+                        <span class="exp-item position">FOUNDER, PRESIDENT, MENTOR</span>
+                        <span class="exp-item work-date">08/2014 - 12/2017</span> 
+                        <button type="button"class="btn exp-item read-more">READ MORE</button>  
                     </div>
-                    <hr>
-                    <div>
-                        <strong>KOTX UCSD</strong>
-                        &lt;&gt;
-                        <span>MEDIA PRODUCER</span>
-                        &lt;&gt;
-                        <span>10/2018 - PRESENT</span> 
-                        &lt;&gt;
-                        <button type="button">READ MORE</button>  
+                    <div class="exp-row">
+                         <span class="exp-item company">KOTX UCSD</span>
+                         <span class="exp-item position">MEDIA PRODUCER</span>
+                         <span class="exp-item work-date">10/2018 - PRESENT</span> 
+                        <button type="button"class="btn exp-item read-more">READ MORE</button>  
                     </div>
-                    <hr>
-                    <div>
-                        <strong>HAPKIDO USA</strong>
-                        &lt;&gt;
-                        <span>INSTRUCTOR</span>
-                        &lt;&gt;
-                        <span>07/2015 - 09/2018</span> 
-                        &lt;&gt;
-                        <button type="button">READ MORE</button>  
+                    <div class="exp-row">
+                         <span class="exp-item company">HAPKIDO USA</span>
+                         <span class="exp-item position">INSTRUCTOR</span>
+                         <span class="exp-item work-date">07/2015 - 09/2018</span> 
+                        <button type="button"class="btn exp-item read-more">READ MORE</button>  
                     </div>
                 </div>
             </section>
 
-            <footer>
-                    <h3>Nick Mak</h3>
-                    <ul>
+
+
+
+
+            <footer class="main-footer">
+                <div class="container main-footer-container">
+
+                    <h3 class="name">Nick Mak</h3>
+
+                    <ul class="nav footer-nav">
                         <li>
                             <a href="https://www.youtube.com/nickmak" target="_blank">
                                 <img src="Images/youtube logo.png" width="50">
@@ -100,7 +105,20 @@
                                 <img src="Images/facebook logo.png" width="50">
                             </a> 
                         </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/nick-l-mak/" target="_blank">
+                                <img src="Images/linkedin logo.png" width="50">
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="https://github.com/nmakucsd" target="_blank">
+                                <img src="Images/github logo.png" width="50">
+                            </a> 
+                        </li>
                     </ul>
+                </div>
+
+
             </footer>
     </body>
 </html>

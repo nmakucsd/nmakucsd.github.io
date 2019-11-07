@@ -3,40 +3,68 @@
     <head>
         <title>Nick Mak | About Me</title>
         <meta name="description" content="Computer Science Major at UC San Diego">
+        <link rel="stylesheet" href="styles.css">
     </head>
     
+
+
+
+
+
+
+
     <body>
-            <header> <!--header element -->
-                <nav> <!--Navigation Section -->
+
+
+
+
+
+
+            <header class="main-header"> <!--header element -->
+                <nav class="nav main-nav"> <!--Navigation Section -->
                     <ul>        <!--unordered list-->
-                        <li> <a href="Index.html">HOME</a> </li>       <!--list item, only used inside a ul/ol-->
-                        <li>ABOUT ME</li>
+                        <li> <a href="Index.html">HOME</a></li>       <!--list item, only used inside a ul/ol-->
+                        <li> ABOUT ME </li>
                         <li> <a href="Photography.html">PHOTOGRAPHY</a> </li>
                         <li>CONTACT</li>
                     </ul>
                 </nav>
-                <hr>    <!--horizontal rule, empty element-->
-                <h1>Nick Mak</h1>   <!--heading 1 element-->
+
+
+
+                <h1 class="name name-large">Nick Mak</h1>   <!--heading 1 element-->
             </header>
 
-            <section> <!--grouping of stuff in one section-->
-                <h2>ABOUT ME</h2> <!--header 2 element-->
+
+
+            
+
+
+            <section class="content-section container"> <!--grouping of stuff in one section-->
+                <h2 class="section-header">ABOUT ME</h2> <!--header 2 element-->
                 <!--paragraph element-->
                 <p>I was born and raised in San Francisco, California with exposure to a diverse amount of culture. Through my family, I was raised with a intricate background of Kung Fu.</p>
-                <img src="Images/Childhood_Germany.jpg" width="300">
+                <img class="float-image-left" src="Images/Childhood_Germany.jpg" width="300">
 
                 <p>For high school, I enrolled in San Francisco's Ruth Asawa School of the Arts as a World Music major. </p>
                 <p>While my high school was rich in opportunity for the arts, there was an imbalance. All the emphasis for the arts meant a lack of focus for STEM education. To supplement my passion for Engineering at the time, I decided to start the school's first robotics team. Initially it was difficult to get support, but when the word spread, likeminded students began to follow. </p>
-                <li><img src="Images/2019 Robot.jpg" width="300"></li>
+                <li><img class="float-image-right" src="Images/2019 Robot.jpg" width="300"></li>
 
                 <p>For university, I was fortunate enough to be accepted into University of California, San Diego as a computer science major. For my first year, I wanted to allow myself to explore university life. As a result, I joined various social organizations like UCSD KASA and a dance team, Sleepless Collective. </p>
                 <p>My second year of university, I decided to return to the world of STEM by joining engineering societies like IEEE, ACM, and Triton XR and applying to various staff positions to promote my involvement. </p>
                 
             </section>
 
-            <footer>
-                    <h3>Nick Mak</h3>
-                    <ul>
+
+
+
+
+            <footer class="main-footer">
+                <div class="container main-footer-container">
+
+                    <h3 class="name">Nick Mak</h3>
+
+                    <ul class="nav footer-nav">
                         <li>
                             <a href="https://www.youtube.com/nickmak" target="_blank">
                                 <img src="Images/youtube logo.png" width="50">
@@ -52,7 +80,20 @@
                                 <img src="Images/facebook logo.png" width="50">
                             </a> 
                         </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/nick-l-mak/" target="_blank">
+                                <img src="Images/linkedin logo.png" width="50">
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="https://github.com/nmakucsd" target="_blank">
+                                <img src="Images/github logo.png" width="50">
+                            </a> 
+                        </li>
                     </ul>
+                </div>
+
+
             </footer>
     </body>
 </html>
