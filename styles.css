@@ -52,6 +52,17 @@ html, body {
 .nav a:hover {
     background-color: rgba(255, 255 , 255, 0.3);
 }
+
+.project-nav {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.project-nav li {
+    padding: 0 1%;
+}
+
+
 .main-header {
     background-color: rgba(0, 0 , 0, 0.6);
     background-image: url("Images/Itachi.jpg");
@@ -69,6 +80,54 @@ html, body {
     text-transform: uppercase;
 }
 
+.name-large {
+    padding-top: 20px;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 0.8em;
+}
+
+.main-footer-container {
+    display: flex;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav {
+    padding: 0 0 0 0;
+}
+
+.footer-nav li {
+    padding: 0 0.5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content-section {
     margin: 1em;
 }
@@ -77,6 +136,10 @@ html, body {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+}
+
+.content-paragraph {
+    line-height: 1.5em;
 }
 
 .section-header {
@@ -89,7 +152,7 @@ html, body {
 
 .float-image-left {
     float: left;
-    margin: 15px;
+    margin: 5px 20px 5px 0px;
     border-radius: 12%;
 }
 
@@ -99,29 +162,6 @@ html, body {
     border-radius: 12%;
 }
 
-.main-footer {
-    background-color: #56CCF2;
-    color: white;
-    padding: 0.25em 0;
-}
-
-.main-footer-container {
-    display: flex;
-}
-
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
-}
-
-.footer-nav li {
-    padding: 0 0.5em;
-}
-
-.footer-nav img {
-    width: 30px;
-    height: 30px;
-}
 
 .btn {
     text-align: center;
@@ -159,7 +199,9 @@ html, body {
 
 .exp-item {
     display: inline-block;
+    padding-top: 0.1em;
     padding-right: 0.5em;
+    padding-bottom: 0.1em;
 }
 
 .company {
@@ -182,6 +224,9 @@ html, body {
     border: black;
     border-radius: 7%;
     color: white;
+    font-size: 7pt;
+    padding: 0.8em;
+    font-weight: bold;
 }
 
 .read-more:hover {
@@ -191,7 +236,7 @@ html, body {
 
 .photo-section {
     background-color: black;
-    padding: 3em;
+    padding-bottom: 0.5em;
 }
 
 .photo-section-header {
@@ -209,3 +254,4 @@ html, body {
     font-size: 1.5em;
     margin: 50px;
 }
+
