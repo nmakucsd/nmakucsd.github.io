@@ -327,14 +327,13 @@ html, body {
 }
 
 .photography {
-    display: flex;
-    align-items: center;
-    max-height: 300px;
+    display: block;
+    max-width: 300px;
 }
 
 .clone-text {
-    align-items: center;
     padding: 1em;
-    margin: 0;
+    text-align: center;
+    margin: auto;
     line-height: 1.5em;
 }
