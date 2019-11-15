@@ -317,7 +317,7 @@ html, body {
 }
 .smallVideoWrapper {
 	position: relative;
-	padding-bottom: 32.25%; /* 16:9 */
+	padding-bottom: 27%; /* 16:9 */
 	padding-top: 25px;
     height: 0;
     color: black;
@@ -335,7 +335,7 @@ html, body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 500px;
+	height: 400px;
 }
 
 
@@ -372,7 +372,7 @@ html, body {
 
 .clone-item {
     margin: 0;
-    flex-grow: 1;
+    /*flex-grow: 1; */
 }
 
 .photo-title {
@@ -380,12 +380,12 @@ html, body {
     width: 100%;
     text-align: center;
     font-size: 1.5em;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .photography {
-    display: block;
-    max-width: 300px;
+    max-width: 500px;
+    text-align: center;
 }
 
 .clone-text {
