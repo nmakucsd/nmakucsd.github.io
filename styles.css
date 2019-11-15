@@ -315,6 +315,13 @@ html, body {
     height: 0;
     color: black;
 }
+.smallVideoWrapper {
+	position: relative;
+	padding-bottom: 32.25%; /* 16:9 */
+	padding-top: 25px;
+    height: 0;
+    color: black;
+}
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -323,12 +330,12 @@ html, body {
 	height: 100%;
 }
 
-.videoWrapper video {
+.smallVideoWrapper video {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 500px;
 }
 
 
