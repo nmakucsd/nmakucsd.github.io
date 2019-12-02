@@ -308,6 +308,26 @@ html, body {
     transition: all 0.25s ease;
 }
 
+.website-link {
+    background-color: grey;
+    border: black;
+    border-radius: 16px;
+    color: white;
+    font-size: 20pt;
+    padding: 1em;
+    font-weight: bold;
+    text-transform: capitalize;
+    -webkit-transition: all .25s;
+
+}
+
+.website-link:hover {
+    background-color: white;
+    color: grey;
+    transition: all 0.25s ease;
+}
+
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
