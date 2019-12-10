@@ -184,23 +184,9 @@ html, body {
 
 /* Slideshow container */
 .slideshow-container {
-  /* max-width: auto;          SETS THE WIDTH TO SPAN SITE */
-  width: 800px;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  vertical-align: center;
-}
-
-.image-container {
-    width: 2400px;
-    height: 500px;
-    position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
+  max-width: auto;          /* SETS THE WIDTH TO SPAN SITE */
+  position: relative;
+  margin: auto;
 }
 
 /* Hide the images by default */
@@ -209,16 +195,12 @@ html, body {
 }
 
 .mySlides img{
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    width: 800px;
-    height: 500px;
-    object-fit: cover;
-  object-position: 100% 0;    /* X AXIS AND Y AXIS POSITION OF PHOTO DEFAULT */
-  
-  
-  text-align: center; 
+  object-fit: cover;
+  object-position: 100% 0;     /* X AXIS AND Y AXIS POSITION OF PHOTO DEFAULT*/
+
+  width: 100%;                  /* ASPECT RATIO OF PHOTO */
+  height: 500px;
+  text-align: center;
 }
 
 /* Next & previous buttons */
@@ -286,11 +268,11 @@ html, body {
 }
 
 /* Fading animation */
-/* .fade{
+.fade{
   -webkit-animation-name: slide;
   -webkit-animation-duration: 5s;
-  animation-name: fade-in;
-  animation-duration: 1.5s; 
+  /* animation-name: fade-in;
+  animation-duration: 1.5s; */
 }
 
 @-webkit-keyframes slide{
@@ -308,7 +290,7 @@ html, body {
     100% {
         left:-100%;
     }
-} */
+}
 
 
 
